@@ -1,0 +1,59 @@
+@font-face {
+  font-family: yekan-bold;
+  src: url(../font/YekanBakh-Bold.ttf);
+}
+@font-face {
+  font-family: yekan-extraBold;
+  src: url(../font/YekanBakh-ExtraBold.ttf);
+}
+@font-face {
+  font-family: yekan-semibold;
+  src: url(../font/YekanBakh-SemiBold.ttf);
+}
+@font-face {
+  font-family: yekan-light;
+  src: url(../font/YekanBakh-Light.ttf);
+}
+
+input::placeholder {
+  font-size: 12px;
+  font-family: yekan-semibold;
+  color: #272d66;
+}
+.background {
+  background-image: url(../image/ad22bb111338589\ 1.svg);
+}
+
+span{
+  font-family: yekan-semibold;
+  font-size: 18px;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  /* mix-blend-mode: luminosity; */
+}
+
+h1 {
+  font-family: yekan-extraBold;
+}
+
+h2 {
+  font-family: yekan-light;
+}
+
+.btn {
+  font-family: yekan-bold;
+  color: white;
+}
+
+p {
+  font-family: yekan-bold;
+}
+
+.error {
+  font-family: yekan-bold;
+}
